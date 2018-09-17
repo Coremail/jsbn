@@ -40,6 +40,4 @@ const generateAll = () => {
     ]);
 }
 
-if (!fs.existsSync(`${__dirname}/dist/rsa.js`)) {
-    generateAll();
-}
+generateAll();

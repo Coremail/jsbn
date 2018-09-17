@@ -1,9 +1,9 @@
 {
   "name": "js-jsbn",
-  "version": "1.4.1-beta.0",
+  "version": "1.4.1-beta.1",
   "description": "CommonJS Porting for http://www-cs-students.stanford.edu/~tjw/jsbn/",
   "scripts": {
-    "install": "node build.js",
+    "prepare": "node build.js",
     "test": "node test/index.js"
   },
   "main": "dist/jsbn.js",
@@ -20,5 +20,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Coremail/jsbn"
+  },
+  "engines": {
+    "npm": ">=4"
   }
 }
